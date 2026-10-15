@@ -1,0 +1,22 @@
+.hcyb .hcyb-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+@media(max-width:1100px){.hcyb .hcyb-grid{grid-template-columns:1fr}}
+.hcyb-card{background:#fff;border:1px solid #dcdcde;border-radius:14px;padding:16px;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.hcyb-muted{color:#667085}
+.hcyb-badge{display:inline-block;padding:2px 8px;border-radius:999px;background:#eef2ff;color:#3730a3;font-size:12px;margin-left:6px}
+.hcyb-status{margin-top:10px;padding:10px;border-radius:10px;background:#f6f7f7;border:1px dashed #c3c4c7}
+.hcyb-level{padding:2px 8px;border-radius:999px;font-size:12px;border:1px solid #c3c4c7;background:#fff}
+.hcyb-level-high{border-color:#dc2626}
+.hcyb-level-med{border-color:#d97706}
+.hcyb-level-low{border-color:#2563eb}
+.hcyb-req code{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;display:inline-block;max-width:520px}
+
+.hcyb-rl input[type="number"]{width:90px}
+.hcyb-rl td{vertical-align:top}
+
+.hcyb-badge-info{background:#f3f4f6;color:#111827}
+.hcyb-badge-low{background:#eff6ff;color:#1d4ed8}
+.hcyb-badge-med{background:#fff7ed;color:#9a3412}
+.hcyb-badge-high{background:#fef2f2;color:#b91c1c}
+
+.hcyb-progress{width:100%;max-width:520px;height:10px;border-radius:999px;background:#e5e7eb;overflow:hidden;margin:10px 0}
+.hcyb-progress__bar{height:100%;background:#2563eb}

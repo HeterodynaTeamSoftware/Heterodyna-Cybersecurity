@@ -1,0 +1,15 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Local archives / logs
+*.log
+
+# Publication helpers must stay outside public repository
+PUBLIKUJ_GITHUB.cmd
+PUBLIKUJ_GITHUB.ps1
+PUBLIKACJA_GITHUB.md
